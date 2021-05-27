@@ -100,16 +100,11 @@ button{
 @media only screen and (max-width:600px){
 
   body{
-  margin: 10em;
-  font-size: 15px;
-  font-weight: 400;
-  font-family: Lexend Deca;
-  background-color: hsl(0, 0%, 95%);
+  margin: 0em;
   }
 
   main{
     display: block;
-  }
-  
+  }  
  
 }
