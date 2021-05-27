@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin: 10em;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: Lexend Deca;
+  background-color: hsl(0, 0%, 95%);
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+p{
+  margin-bottom: 50px;
+}
+
+h2{
+  color: hsl(0, 0%, 95%);
+  margin-bottom: 30px;
+}
+
+.One{
+  background-color: hsl(31, 77%, 52%);
+  color:hsla(0, 0%, 100%, 0.75);
+  padding: 30px 20px;  
+}
+
+.img-1{
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
+
+.item-one{
+  margin: auto 20px;
+}
+.btn-1{
+  color:hsl(31, 77%, 52%);
+  margin-left: 20px;
+}
+
+.Two{
+  background-color: hsl(184, 100%, 22%);
+  color: hsla(0, 0%, 100%, 0.75);
+  padding: 30px 20px;
+}
+
+.img-2{
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
+
+.item-two{
+  margin: auto 20px;
+}
+
+.btn-2{
+  color:hsl(184, 100%, 22%);
+  margin-top: 25px;
+  margin-left: 20px;
+}
+
+.Three{
+  background-color: hsl(179, 100%, 13%);
+  color: hsla(0, 0%, 100%, 0.75);
+  padding: 30px 20px;
+}
+
+.img-3{
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
+
+.item-three{
+  margin: auto 20px;
+}
+.btn-3{
+  color:hsl(179, 100%, 13%);
+  margin-left: 20px;
+  margin-top: 25px;
+}
+
+button{
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 20px; 
+  padding: 7px 25px;  
+  border: 0;
+  margin-top: 25px;
+}
+
+
+@media only screen and (max-width:600px){
+
+  body{
+  margin: 10em;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: Lexend Deca;
+  background-color: hsl(0, 0%, 95%);
+  }
+
+  main{
+    display: block;
+  }
+  
+ 
+}
